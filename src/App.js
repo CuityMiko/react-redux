@@ -7,6 +7,7 @@ import './App.css';
 
 //自定义组件
 import Redux1Component from './components/Redux1/'
+import BrotherComponent from './components/Brother/'
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           </div>
           <p className="App-intro">
             <Redux1Component></Redux1Component>
+            <BrotherComponent></BrotherComponent>
           </p>
         </div>
     );

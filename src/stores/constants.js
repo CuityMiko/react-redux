@@ -3,3 +3,4 @@
  */
 export const ADD = 'add' // 加
 export const JIAN = 'jian' // 减
+export const CHANGECONTENT = 'changecontent' // 改变内容
