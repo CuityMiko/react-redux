@@ -6,15 +6,27 @@ class Redux1 extends React.Component{
     constructor(props){
         super(props);
         this.state={
-            title:'Redux的基本使用'
+            title:'Redux的基本使用',
+            txtnum:0
         }
+    }
+    changenum=(e)=>{
+        this.setState({
+            txtnum:e.target.value
+        })
     }
     render(){
         const { num,add,jian } = this.props;
         return (
-            <div>
+            <div>                
                 <h3>{ this.state.title }</h3>
-                <button onClick={ add }>+</button><span>{ num }</span><button onClick={ jian }>-</button>
+                <p>
+                    <input type="number" value={this.state.txtnum} onChange={this.changenum}/>
+                </p>
+                <p>
+                    当前数字为：{ this.state.txtnum }
+                </p>
+                <button onClick={ ()=>add(this.state.txtnum) }>+</button><span>{ num }</span><button onClick={ ()=>jian(this.state.txtnum) }>-</button>
             </div>
         )
     }

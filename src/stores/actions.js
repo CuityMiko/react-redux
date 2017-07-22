@@ -3,14 +3,16 @@
  */
 import { ADD,JIAN } from './constants.js'
 
-export const add = () => {
+export const add = (n) => {
     return {
-        type: ADD
+        type: ADD,
+        n:parseInt(n)
     }
 }
 
-export const jian = () => {
+export const jian = (n) => {
     return {
-        type: JIAN
+        type: JIAN,
+        n:parseInt(n)
     }
 }
