@@ -145,3 +145,5 @@ const mapStateToProps=(state)=>{
 
 export default connect(mapStateToProps,{ add,jian })(Redux1);
 ```
+
+### v1版本引入redux-devtools可以在项目中进行调试和管理redux
