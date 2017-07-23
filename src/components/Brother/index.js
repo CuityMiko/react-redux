@@ -18,7 +18,7 @@ class Brother extends React.Component{
 }
 const getContent=(state)=>{
     return {
-        content:state.content
+        content:state.indexreducers.content
     }
 }
 export default connect(getContent)(Brother)

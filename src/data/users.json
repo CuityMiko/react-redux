@@ -1,0 +1,7 @@
+[
+    {"id":1,"name":"zhangsan","pwd":"123456","age":20},
+    {"id":2,"name":"lisi","pwd":"123456","age":21},
+    {"id":3,"name":"wangwu","pwd":"123456","age":22},
+    {"id":4,"name":"zhaoliu","pwd":"123456","age":23},
+    {"id":5,"name":"admin","pwd":"admin","age":24}
+]

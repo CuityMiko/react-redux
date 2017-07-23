@@ -1,0 +1,11 @@
+.basicdata{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid burlywood;
+}
+.basicitem{
+    flex: 1;
+    margin: 9px;
+}

@@ -6,13 +6,14 @@ import registerServiceWorker from './registerServiceWorker';
 // Redux & Store
 import { Provider } from 'react-redux'
 import Store from './stores/'
-import DevTools from './js/reduxDevtools.js'  // 引入Redux调试工具DevTools
+// 引入Redux调试工具DevTools
+import DevTools from './js/reduxDevtools.js'  
 
 ReactDOM.render(
     <Provider store={ Store }>
         <div>
             <App />
-            <DevTools />
+            {/* <DevTools /> */}
         </div>
     </Provider>, 
     document.getElementById('root'));

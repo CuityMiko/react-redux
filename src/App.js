@@ -9,17 +9,19 @@ import './App.css';
 import Redux1Component from './components/Redux1/'
 import BrotherComponent from './components/Brother/'
 
+import Redux2Component from './components/Redux2/'
+
 class App extends Component {
   render() {
     return (
         <div className="App">
           <div className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <h2>Welcome to React</h2>
           </div>
           <p className="App-intro">
-            <Redux1Component></Redux1Component>
-            <BrotherComponent></BrotherComponent>
+             {/* <Redux1Component></Redux1Component>
+            <BrotherComponent></BrotherComponent>  */}
+             <Redux2Component></Redux2Component> 
           </p>
         </div>
     );

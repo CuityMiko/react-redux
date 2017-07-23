@@ -21,7 +21,7 @@ class Son extends React.Component{
 
 const getContent=(state)=>{
     return {
-        content1:state.content
+        content1:state.indexreducers.content
     }
 }
 

@@ -59,7 +59,7 @@ class Redux1 extends React.Component{
 // 将state属性映射到props上
 const mapStateToProps=(state)=>{
     return {
-        num:state.num
+        num:state.indexreducers.num
     }
 }
 
